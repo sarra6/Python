@@ -8,17 +8,18 @@ num2 = 2.3
         
 boolean = True #- Boolean
 string = 'Hello World' #- Strings"
-#- List 
+#- Tuple 
 pizza_toppings = ['Pepperoni', 'Sausage', 'Jalepenos', 'Cheese', 'Olives']
+#Dictionaries 
 person = {'name': 'John', 'location': 'Salt Lake', 'age': 37, 'is_balding': False}
 fruit = ('blueberry', 'strawberry', 'banana')
-print(type(fruit))# type check
-print(pizza_toppings[1])
+print(type(fruit)) # output: <class 'dic'>
+print(pizza_toppings[1])# output: <class 'int'>
 pizza_toppings.append('Mushrooms')
-print(person['name'])
+print(person['name'])# output: <class 'dic'>
 person['name'] = 'George'
 person['eye_color'] = 'blue'
-print(fruit[2])
+print(fruit[2])# output: <class 'int'>
 #conditional (- if - else if - else - for loop- start- stop- increment- break - continue- sequence- while loop - start - stop - increment)
 if num1 > 45:
     print("It's greater")
